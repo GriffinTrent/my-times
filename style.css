@@ -2,6 +2,7 @@
  display: flex;
  width: 100%;
  border-bottom: 2px solid black;
+ margin-bottom: 30px;
 }
 .header img{
 	margin: 10px 0px;
@@ -45,3 +46,53 @@ a{
 	color: black;
 }
 
+.column-large{
+	display: flex;
+	width: 630px;
+	/* remove border later*/
+	border: 1px solid red;
+	font-size: 30px;
+
+}
+
+#main-story img{
+position: absolute;
+	font-family: Georgia;
+  	font-weight: bold;
+  	font-size: 40px;
+  	color: white; 
+  	display: block;
+  }
+
+  #main-story span{
+  	position: absolute;
+	font-family: Georgia;
+  	font-weight: bold;
+  	font-size: 40px;
+  	color: white; 
+  	display: block;
+  }
+
+  #excerpt{
+  	flex-direction: column;
+  }
+
+  #content-2{
+  	flex-direction: column;
+  	display: block;
+
+  }
+
+.column-medium{
+	display: flex;
+	width: 300px;
+	/* remove border later*/
+	boarder: 1px solid black;
+}
+
+.column-small{
+	display: flex;
+	width:240px;
+	/* remove border later*/
+	boarder: 1px solid black;
+}
