@@ -1,3 +1,7 @@
+h1{
+	font-size: 40px;
+}
+
 .header {
  display: flex;
  width: 100%;
@@ -56,32 +60,50 @@ a{
 }
 
 #main-story img{
-position: absolute;
-	font-family: Georgia;
-  	font-weight: bold;
-  	font-size: 40px;
-  	color: white; 
-  	display: block;
+	position: absolute;
+  	display: flex;
   }
 
   #main-story span{
-  	position: absolute;
+  	width: 600px;
+  	position: relative;
 	font-family: Georgia;
   	font-weight: bold;
   	font-size: 40px;
   	color: white; 
-  	display: block;
+  	display: flex;
+  	padding-left: 5px;
+  	height: 300px;
+
   }
 
   #excerpt{
   	flex-direction: column;
+  	display: inline-block;
   }
 
-  #content-2{
+  #peter-span{
   	flex-direction: column;
-  	display: block;
-
+  	flex-flow: row;
+  	width: 632;
   }
+
+  #peter-span img{
+  	position: absolute;
+  	display: flex;
+  }
+
+#peter-span span{
+  	position: relative;
+	font-family: Georgia;
+  	font-weight: bold;
+  	font-size: 30px;
+  	color: white;
+  	text-align: center;
+  	padding-top: 18px;
+  	display: inline-block;
+
+}
 
 .column-medium{
 	display: flex;
