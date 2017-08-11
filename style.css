@@ -50,6 +50,10 @@ a{
 	color: black;
 }
 
+.container{
+	border: 1px solid red;
+}
+
 .column-large{
 	display: flex;
 	width: 630px;
@@ -109,12 +113,22 @@ a{
 	display: flex;
 	width: 300px;
 	/* remove border later*/
-	boarder: 1px solid black;
+	border: 1px solid red;
+	flex-direction: row;
+
+}
+
+#FBI{
+	display: inline-block;
+	justify-content: center;
+	position: relative;
+	bottom: 1533px;
+	left: 662px;
 }
 
 .column-small{
 	display: flex;
 	width:240px;
 	/* remove border later*/
-	boarder: 1px solid black;
+	border: 1px solid red;
 }
