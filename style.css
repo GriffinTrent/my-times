@@ -51,79 +51,59 @@ a{
 }
 
 .container{
-	border: 1px solid red;
+	border: 1px solid blue;
+	display: flex;
+}
+
+#column-large{
+	display: block;
 }
 
 .column-large{
 	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
 	width: 630px;
-	/* remove border later*/
-	border: 1px solid red;
-	font-size: 30px;
-
 }
 
-#main-story img{
-	position: absolute;
-  	display: flex;
-  }
-
-  #main-story span{
+ .column-span {
   	width: 600px;
-  	position: relative;
+  	position: absolute;
 	font-family: Georgia;
   	font-weight: bold;
   	font-size: 40px;
   	color: white; 
-  	display: flex;
   	padding-left: 5px;
   	height: 300px;
-
   }
 
-  #excerpt{
-  	flex-direction: column;
-  	display: inline-block;
+  .column-large-mid{
+  	width: 315px;
+  	display: inline-flex;
+  	flex-flow: column;
+  	align-content: stretch;
   }
 
-  #peter-span{
-  	flex-direction: column;
-  	flex-flow: row;
-  	width: 632;
-  }
-
-  #peter-span img{
-  	position: absolute;
-  	display: flex;
-  }
-
-#peter-span span{
-  	position: relative;
-	font-family: Georgia;
-  	font-weight: bold;
+  .column-large-mid span{
   	font-size: 30px;
+  	position: absolute;
+  	font-family: Georgia;
+  	padding-left: 5px;
   	color: white;
-  	text-align: center;
-  	padding-top: 18px;
-  	display: inline-block;
+  	align-content: stretch;
+  	top: 1000px;
+  }
 
-}
-
-.column-medium{
-	display: flex;
+#column-medium{
+	display: inline-flex;
 	width: 300px;
 	/* remove border later*/
 	border: 1px solid red;
 	flex-direction: row;
+	align-content: flex-start;
+	flex-flow: column;
 
-}
-
-#FBI{
-	display: inline-block;
-	justify-content: center;
-	position: relative;
-	bottom: 1533px;
-	left: 662px;
 }
 
 .column-small{

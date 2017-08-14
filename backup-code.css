@@ -1,0 +1,34 @@
+
+  #excerpt{
+  	flex-direction: column;
+  	display: inline-block;
+  }
+
+  #peter-span{
+  	flex-direction: column;
+  	flex-flow: row;
+  	width: 632;
+  }
+
+  #peter-span img{
+  	position: absolute;
+  	display: flex;
+  }
+
+#peter-span span{
+  	position: relative;
+	font-family: Georgia;
+  	font-weight: bold;
+  	font-size: 30px;
+  	color: white;
+  	text-align: center;
+  	padding-top: 18px;
+  	display: inline-block;
+
+    #FBI{
+  display: inline-block;
+  justify-content: center;
+  position: relative;
+  bottom: 1533px;
+  left: 662px;
+}
