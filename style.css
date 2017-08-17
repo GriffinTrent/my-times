@@ -172,20 +172,33 @@ a{
   	padding-top: 18px;
   	display: inline-block;
   	top: 500px;
+}
 
-.footer-1 {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		width: 100%;
-		height: 325px;
-  		font-family: Verdana;
-  		font-size: 12px;
-  		flex-direction: column;
-  		margin: auto;
-  		background-color: MediumAquaMarine;
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 325px;
+  	font-family: Verdana;
+  	font-size: 12px;
+  	margin: auto;
+  	background-color: #66CDAA;
+  	flex-direction: column;
   	}
 
-.footer-1 span{
+.footer span{
 	color: white;
+}
+
+.footer nav{
+	display: inline-block;
+	padding-left: 12px;
+}
+.copywright{
+	display: block;
+	color: black;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 20px;
 }
